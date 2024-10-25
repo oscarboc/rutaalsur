@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "required": [
+        "attachFile"
+    ],
+    "properties": {
+        "attachFile": {
+            "type": "string",
+            "format": "binary"
+        }
+    }
+}

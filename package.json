@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Excel Process",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "SIRIS SAS",
+  "license": "ISC",
+  "dependencies": {
+    "@qualdesk/firestore-big-batch": "0.0.2",
+    "body-parser": "^1.20.0",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.9.1",
+    "firebase-admin": "^11.0.0",
+    "luxon": "^3.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-excel-export": "^1.4.4",
+    "nodemon": "^2.0.19",
+    "socket.io": "^2.3.0",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
